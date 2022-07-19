@@ -3,4 +3,90 @@
    -------------- */
 body {
     font-family: 'Lobster', cursive;
+
+}
+
+/* ----------------
+    style for main
+ -------------------*/
+.main {
+    margin: 0% 5%;
+}
+
+/* -----------------
+  nav-bar styling
+------------------- */
+#influencer {
+    color: #fc4427;
+}
+
+.nav-bar {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-items {
+    display: flex;
+    list-style: none;
+}
+
+.list-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* ---------------------
+top-banner styling part
+------------------------ */
+
+.Top-banner {
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+}
+
+.banner-parts {
+    /* border: 2px solid green; */
+    width: 50%;
+    padding: 2% 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner-parts img {
+    width: 100%;
+    background-image: url("./images/Circle\ design.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-parts button {
+    width: 196px;
+    height: 44px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    border: none;
+    padding: 10px;
+}
+
+/* ------------------
+comapany styling part 
+---------------------*/
+
+.companies {
+    /* border: 2px solid greenyellow; */
+    margin: 50px 120px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.comapanies-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
